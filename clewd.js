@@ -274,7 +274,7 @@ const updateParams = res => {
         res.json(modelsReply);
         break;
 
-      case '/v1/chat/completions':
+      case '/ppp/v1/chat/completions':
         ((req, res) => {
             setTitle('recv...');
             let fetchAPI;
